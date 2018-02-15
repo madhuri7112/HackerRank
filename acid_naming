@@ -1,0 +1,16 @@
+#https://www.hackerrank.com/contests/w36/challenges/acid-naming
+
+#!/bin/python
+
+import sys
+
+def acidNaming(acid_name):
+    # Complete this function
+
+if __name__ == "__main__":
+    n = int(raw_input().strip())
+    for a0 in xrange(n):
+        acid_name = raw_input().strip()
+        result = acidNaming(acid_name)
+        print result
+
